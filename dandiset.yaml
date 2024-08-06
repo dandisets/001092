@@ -31,16 +31,9 @@ assetsSummary:
   - TwoPhotonSeries
   - ImagingPlane
   - OpticalChannel
-citation: Brooks, Frederick (2024) HaloTag Time-Stamping of cFos Transcription in
-  Mouse Brain (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001092/draft
+citation: Cohen, Adam E.; Moult, Eric (2024) HaloTag Time-Stamping of cFos Transcription
+  in Mouse Brain (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001092/draft
 contributor:
-- affiliation: []
-  email: philbrooks1@verizon.net
-  includeInCitation: true
-  name: Brooks, Frederick
-  roleName:
-  - dcite:ContactPerson
-  schemaKey: Person
 - awardNumber: 1 R21 EY 033669-02
   identifier: https://ror.org/01cwqze88
   includeInCitation: false
@@ -48,6 +41,26 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: cohen@chemistry.harvard.edu
+  includeInCitation: true
+  name: Cohen, Adam E.
+  roleName:
+  - dcite:ContactPerson
+  - dcite:FundingAcquisition
+  - dcite:Supervision
+  schemaKey: Person
+- email: eric_moult@harvard.edu
+  includeInCitation: true
+  name: Moult, Eric
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Investigation
+  - dcite:Researcher
+  schemaKey: Person
 dateCreated: '2024-07-22T15:35:15.014321+00:00'
 description: 'These images are from a cross-sectional slice through a tet-tag mouse
   brain expressing a TRE::HaloTag-NLS construct. The mouse was intravenously injected
